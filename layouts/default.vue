@@ -118,7 +118,7 @@ export default {
         },
          {
           icon: 'mdi-account-multiple',
-          title: 'About',
+          title: 'About us',
           to: '/about'
         },
         {

@@ -93,7 +93,7 @@
         drawer:false,
         items: [
           { icon: 'mdi-view-dashboard', title: 'Dashboard',  route: '/' },
-          { icon: 'mdi-file' ,title: 'About us',  to: '/about', route: '/about' },
+          { icon: 'mdi-file' ,title: 'About',  to: '/about', route: '/about' },
           { icon: 'mdi-file',title: 'Inspire',  to: '/inspire', route: '/inspire' },
           { icon: 'mdi-account-box', title: 'Account',  route: '/' },
           { icon: 'mdi-gavel', title: 'Admin',  route: '/'},

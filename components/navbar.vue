@@ -11,13 +11,13 @@
 
       <v-toolbar-title>SQS Product</v-toolbar-title>
 
-      
+
      <!-- <v-app-bar class="primary"
-     
+
       >
         <v-list-item v-for="item in items" :key="item.title" router :to="item.route"
         >
-          <v-list-item-icon> 
+          <v-list-item-icon>
             <v-icon class="white--text">{{ item.icon }}</v-icon>
           </v-list-item-icon>
 
@@ -25,7 +25,7 @@
             <v-list-item-title class="white--text">{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-      
+
       </v-app-bar>  -->
 
       <v-spacer></v-spacer>
@@ -39,7 +39,7 @@
       </v-btn>
 
       <v-btn icon>
-          
+
         <v-icon>mdi-export</v-icon>
        </v-btn>
 
@@ -48,7 +48,7 @@
 
     <v-navigation-drawer class="primary white--text" app v-model="drawer" clipped style=""
     >
-  
+
   <!-- <p class="primary">Home</p> -->
 
 
@@ -58,19 +58,20 @@
       >
         <v-list-item v-for="item in items" :key="item.title" router :to="item.route"
         >
-          <v-list-item-icon> 
+          <v-list-item-icon>
             <v-icon class="white--text">{{ item.icon }}</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
             <v-list-item-title class="white--text">{{ item.title }}</v-list-item-title>
           </v-list-item-content>
+
         </v-list-item>
-      
-      </v-list> 
+
+      </v-list>
 
     </v-navigation-drawer>
- 
+
 
 
   </div>
@@ -95,8 +96,10 @@
           { icon: 'mdi-view-dashboard', title: 'Dashboard',  route: '/' },
           { icon: 'mdi-file' ,title: 'About',  to: '/about', route: '/about' },
           { icon: 'mdi-file',title: 'Inspire',  to: '/inspire', route: '/inspire' },
+           { icon: 'mdi-file',title: 'Api',  to: '/api', route: '/api' },
           { icon: 'mdi-account-box', title: 'Account',  route: '/' },
           { icon: 'mdi-gavel', title: 'Admin',  route: '/'},
+          { icon: 'mdi-gavel', title: 'Logout',  route: '/'},
 
         ],
         right: null,
@@ -104,3 +107,5 @@
     }
   }
 </script>
+
+

@@ -96,8 +96,8 @@
  <v-app dark>
 
       <v-content>
-        <navbar />  
-        <nuxt />  
+        <navbar />
+        <nuxt />
       </v-content>
 
  </v-app>
@@ -125,8 +125,13 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Inspire',
           to: '/inspire'
+        },
+          {
+          icon: 'mdi-chart-bubble',
+          title: 'Api',
+          to: '/api'
         }
-        
+
       ],
       miniVariant: false,
       right: true,
